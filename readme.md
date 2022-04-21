@@ -1,18 +1,20 @@
-Plugin for YOURLS 1.6+: Custom API Action
+# Plugin for YOURLS : Custom API Action [![Listed in Awesome YOURLS!](https://img.shields.io/badge/Awesome-YOURLS-C5A3BE)](https://github.com/YOURLS/awesome-yourls/)
 
-# What for
+> 💡 This is a plugin sample. Build on it !
+
+## What for
 
 Create custom API `action`, such as:  
 `http://sho.rt/yourls-api.php?username=x&password=xx&action=do_crazy_stuff&format=json` 
 
-# How to
+## How to
 
 * In `/user/plugins`, create a new folder named `api-action`
 * Drop these files in that directory
 * Go to the Plugins administration page and activate the plugin 
 * Have fun
 
-# Format your returns
+## Format your returns
 
 Your API function should, ideally, return an array like this one:
 ```php
@@ -26,3 +28,7 @@ Your API function should, ideally, return an array like this one:
 		),
 	);
 ```
+
+## License
+
+Do whatever the hell you want with it.
